@@ -4,32 +4,32 @@
 
 void Console::printStartInfo()
 {
-	cout << "¬‚Â‰ËÚÂ ˜ËÒÎÓ ÓÚ 1 ‰Ó 4: ÚËÔ ÌÂÓ·ıÓ‰ËÏÓ„Ó ÓÚ˜ÂÚ‡." << endl;
-	cout << "1. ŒÚ˜ÂÚ Ó· ÛÍ‡‰ÂÌÌ˚ı ·Î˛‰‡ı." << "2. ŒÚ˜ÂÚ ÔÓ ÒÚ‡ÚËÒÚËÍÂ Á‡Í‡ÁÓ‚." << endl;
-	cout << "3. ŒÚ˜ÂÚ Ó· ËÁÏÂÌÂÌËˇı ‚ ÏÂÌ˛." << "4. ¬˚ıÓ‰ ËÁ ÔÓ„‡ÏÏ˚." << endl;
+	cout << "√Ç√¢√•√§√®√≤√• √∑√®√±√´√Æ √Æ√≤ 1 √§√Æ 4: √≤√®√Ø √≠√•√Æ√°√µ√Æ√§√®√¨√Æ√£√Æ √Æ√≤√∑√•√≤√†." << endl;
+	cout << "1. √é√≤√∑√•√≤ √Æ√° √≥√™√∞√†√§√•√≠√≠√ª√µ √°√´√æ√§√†√µ." << "2. √é√≤√∑√•√≤ √Ø√Æ √±√≤√†√≤√®√±√≤√®√™√• √ß√†√™√†√ß√Æ√¢." << endl;
+	cout << "3. √é√≤√∑√•√≤ √Æ√° √®√ß√¨√•√≠√•√≠√®√ø√µ √¢ √¨√•√≠√æ." << "4. √Ç√ª√µ√Æ√§ √®√ß √Ø√∞√Æ√£√∞√†√¨√¨√ª." << endl;
 }
 
 void Console::printInfo(string variant)
 {
-	cout << "¬‚Â‰ËÚÂ ˜ËÒÎÓ ÓÚ 1 ‰Ó 4: ‚‡Ë‡ÌÚ˚ ÓÚ˜ÂÚÓ‚ " << variant << endl;
-	cout << "1.	«‡ ÔÓÒÎÂ‰ÌËÈ ‰ÂÌ¸ (ÚÂÍÛ˘‡ˇ ‰‡Ú‡)" << endl << "2. «‡ ÓÔÂ‰ÂÎÂÌÌ˚Â ÒÛÚÍË(‰‡Ú‡ Á‡‰‡ÂÚÒˇ ÔÓÎ¸ÁÓ‚‡ÚÂÎÂÏ)" << endl;
-	cout << "3. «‡ ÔÓÒÎÂ‰Ì˛˛ ÌÂ‰ÂÎ˛(ÚÂÍÛ˘‡ˇ ‰‡Ú‡ Ë 6 ÔÂ‰¯ÂÒÚ‚Û˛˘Ëı ‰ÌÂÈ) Ò ‰ÂÚ‡ÎËÁ‡ˆËÂÈ ÔÓ ‰ÌˇÏ" << endl << "4. «‡ Á‡‰‡ÌÌ˚È ÔÂËÓ‰(Á‡‰‡˛ÚÒˇ ‰‡Ú˚ Ì‡˜‡Î‡ Ë ÓÍÓÌ˜‡ÌËˇ) Ò ‰ÂÚ‡ÎËÁ‡ˆËÂÈ ÔÓ ‰ÌˇÏ" << endl;
+	cout << "√Ç√¢√•√§√®√≤√• √∑√®√±√´√Æ √Æ√≤ 1 √§√Æ 4: √¢√†√∞√®√†√≠√≤√ª √Æ√≤√∑√•√≤√Æ√¢ " << variant << endl;
+	cout << "1.	√á√† √Ø√Æ√±√´√•√§√≠√®√© √§√•√≠√º (√≤√•√™√≥√π√†√ø √§√†√≤√†)" << endl << "2. √á√† √Æ√Ø√∞√•√§√•√´√•√≠√≠√ª√• √±√≥√≤√™√®(√§√†√≤√† √ß√†√§√†√•√≤√±√ø √Ø√Æ√´√º√ß√Æ√¢√†√≤√•√´√•√¨)" << endl;
+	cout << "3. √á√† √Ø√Æ√±√´√•√§√≠√æ√æ √≠√•√§√•√´√æ(√≤√•√™√≥√π√†√ø √§√†√≤√† √® 6 √Ø√∞√•√§√∏√•√±√≤√¢√≥√æ√π√®√µ √§√≠√•√©) √± √§√•√≤√†√´√®√ß√†√∂√®√•√© √Ø√Æ √§√≠√ø√¨" << endl << "4. √á√† √ß√†√§√†√≠√≠√ª√© √Ø√•√∞√®√Æ√§(√ß√†√§√†√æ√≤√±√ø √§√†√≤√ª √≠√†√∑√†√´√† √® √Æ√™√Æ√≠√∑√†√≠√®√ø) √± √§√•√≤√†√´√®√ß√†√∂√®√•√© √Ø√Æ √§√≠√ø√¨" << endl;
 }
 
 void Console::printMenuInfo()
 {
-	cout << "¬‚Â‰ËÚÂ 2 ‰‡Ú˚, ÔÓ ÍÓÚÓ˚Ï ÌÛÊÌÓ Ò‡‚ÌËÚ¸ ÏÂÌ˛." << endl;
+	cout << "√Ç√¢√•√§√®√≤√• 2 √§√†√≤√ª, √Ø√Æ √™√Æ√≤√Æ√∞√ª√¨ √≠√≥√¶√≠√Æ √±√∞√†√¢√≠√®√≤√º √¨√•√≠√æ." << endl;
 }
 
 string Console::getDate()
 {
 	string _date;
-	cout << "¬‚Â‰ËÚÂ ‰‡ÚÛ ‚ ÙÓÏ‡ÚÂ yyyy-mm-dd" << endl;
+	cout << "√Ç√¢√•√§√®√≤√• √§√†√≤√≥ √¢ √¥√Æ√∞√¨√†√≤√• yyyy-mm-dd" << endl;
 	cin >> _date;
 	Date date;
 	return date.isDateValid(_date);
 }
-
+ 
 
 
 void Report::setReportType()
@@ -45,15 +45,15 @@ void Report::setReportType()
 		}
 		catch (invalid_argument)
 		{
-			cout << "¬‚Â‰ÂÌÌ˚È ‡„ÛÏÂÌÚ ÌÂ ˇ‚ÎˇÂÚÒˇ ˜ËÒÎÓÏ. œÓ‚ÚÓËÚÂ ÔÓÔ˚ÚÍÛ ‚‚Ó‰‡." << endl;
+			cout << "√Ç√¢√•√§√•√≠√≠√ª√© √†√∞√£√≥√¨√•√≠√≤ √≠√• √ø√¢√´√ø√•√≤√±√ø √∑√®√±√´√Æ√¨. √è√Æ√¢√≤√Æ√∞√®√≤√• √Ø√Æ√Ø√ª√≤√™√≥ √¢√¢√Æ√§√†." << endl;
 			continue;
 		}
 		catch (out_of_range)
 		{
-			cout << "¬‚Â‰ÂÌÓ ÌÂ‚ÂÌÓÂ ˜ËÒÎÓ. ƒË‡Ô‡ÁÓÌ ‰ÓÔÛÒÚËÏ˚ı ÁÌ‡˜ÂÌËÈ[1; 4]. œÓ‚ÚÓËÚÂ ÔÓÔ˚ÚÍÛ ‚‚Ó‰‡." << endl;
+			cout << "√Ç√¢√•√§√•√≠√Æ √≠√•√¢√•√∞√≠√Æ√• √∑√®√±√´√Æ. √Ñ√®√†√Ø√†√ß√Æ√≠ √§√Æ√Ø√≥√±√≤√®√¨√ª√µ √ß√≠√†√∑√•√≠√®√©[1; 4]. √è√Æ√¢√≤√Æ√∞√®√≤√• √Ø√Æ√Ø√ª√≤√™√≥ √¢√¢√Æ√§√†." << endl;
 			continue;
 		}
-		if ((reportType != 1) && (reportType != 2) && (reportType != 3) && (reportType != 4)) cout << "¬‚Â‰ÂÌÓ ÌÂ‚ÂÌÓÂ ˜ËÒÎÓ. ƒË‡Ô‡ÁÓÌ ‰ÓÔÛÒÚËÏ˚ı ÁÌ‡˜ÂÌËÈ[1; 4]. œÓ‚ÚÓËÚÂ ÔÓÔ˚ÚÍÛ ‚‚Ó‰‡." << endl;
+		if ((reportType != 1) && (reportType != 2) && (reportType != 3) && (reportType != 4)) cout << "√Ç√¢√•√§√•√≠√Æ √≠√•√¢√•√∞√≠√Æ√• √∑√®√±√´√Æ. √Ñ√®√†√Ø√†√ß√Æ√≠ √§√Æ√Ø√≥√±√≤√®√¨√ª√µ √ß√≠√†√∑√•√≠√®√©[1; 4]. √è√Æ√¢√≤√Æ√∞√®√≤√• √Ø√Æ√Ø√ª√≤√™√≥ √¢√¢√Æ√§√†." << endl;
 	}
 }
 
@@ -81,13 +81,13 @@ void DayData::printLoses(string path)
 		if (!orders[i].count) continue;
 		if (orders[i].count > 0)
 		{
-			file << "¡Î˛‰Ó '" << orders[i].posInMen.name << "' ÔÓ·ËÚÓ ÔÓ ˜ÂÍÛ Ì‡ " << orders[i].count << " ÔÓˆËÈ ÏÂÌ¸¯Â, ˜ÂÏ Ò‰ÂÎ‡ÌÓ Ì‡ ÍÛıÌÂ. œÓÚÂˇ = " << orders[i].count * menu.map_menu[orders[i].posInMen.name].price << " Û·." << endl;
+			file << "√Å√´√æ√§√Æ '" << orders[i].posInMen.name << "' √Ø√∞√Æ√°√®√≤√Æ √Ø√Æ √∑√•√™√≥ √≠√† " << orders[i].count << " √Ø√Æ√∞√∂√®√© √¨√•√≠√º√∏√•, √∑√•√¨ √±√§√•√´√†√≠√Æ √≠√† √™√≥√µ√≠√•. √è√Æ√≤√•√∞√ø = " << orders[i].count * menu.map_menu[orders[i].posInMen.name].price << " √∞√≥√°." << endl;
 			continue;
 		}
-		file << "¡Î˛‰Ó '" << orders[i].posInMen.name << "' ÔÓ·ËÚÓ ÔÓ ˜ÂÍÛ Ì‡ " << (-1) * orders[i].count << " ÔÓˆËÈ ·ÓÎ¸¯Â, ˜ÂÏ Ò‰ÂÎ‡ÌÓ Ì‡ ÍÛıÌÂ. œÓÚÂˇ = " << orders[i].count * (-1) * menu.map_menu[orders[i].posInMen.name].price << " Û·." << endl;
+		file << "√Å√´√æ√§√Æ '" << orders[i].posInMen.name << "' √Ø√∞√Æ√°√®√≤√Æ √Ø√Æ √∑√•√™√≥ √≠√† " << (-1) * orders[i].count << " √Ø√Æ√∞√∂√®√© √°√Æ√´√º√∏√•, √∑√•√¨ √±√§√•√´√†√≠√Æ √≠√† √™√≥√µ√≠√•. √è√Æ√≤√•√∞√ø = " << orders[i].count * (-1) * menu.map_menu[orders[i].posInMen.name].price << " √∞√≥√°." << endl;
 	}
-	if (moneyLose) file << "\n\nŒ·˘‡ˇ ÔÓÚÂˇ = " << moneyLose << " Û·." << endl;
-	else file << " ‡ÊË ÌÂ ·˚ÎÓ." << endl;
+	if (moneyLose) file << "\n\n√é√°√π√†√ø √Ø√Æ√≤√•√∞√ø = " << moneyLose << " √∞√≥√°." << endl;
+	else file << "√ä√∞√†√¶√® √≠√• √°√ª√´√Æ." << endl;
 	file << "============================" << endl;
 	file.close();
 	delete[] orders;
@@ -97,28 +97,28 @@ void DayData::printLoses(string path)
 
 void Menu::printPriceReduce(ofstream* file, map <string, Position_in_menu>::iterator it1, map <string, Position_in_menu>::iterator it2)
 {
-	*file << "¡Î˛‰Ó " << it1->first << " ÔÓ‰Â¯Â‚ÂÎÓ Ì‡ " << it1->second.price - it2->second.price << " Û·ÎÂÈ(" << ((it1->second.price - it2->second.price) / it1->second.price) * 100 << "%)" << endl;
+	*file << "√Å√´√æ√§√Æ " << it1->first << " √Ø√Æ√§√•√∏√•√¢√•√´√Æ √≠√† " << it1->second.price - it2->second.price << " √∞√≥√°√´√•√©(" << ((it1->second.price - it2->second.price) / it1->second.price) * 100 << "%)" << endl;
 }
 
 void Menu::printPriceIncrease(ofstream* file, map <string, Position_in_menu>::iterator it1, map <string, Position_in_menu>::iterator it2)
 {
-	*file << "¡Î˛‰Ó " << it1->first << " ÔÓ‰ÓÓÊ‡ÎÓ Ì‡ " << it2->second.price - it1->second.price << " Û·ÎÂÈ(" << ((it2->second.price - it1->second.price) / it2->second.price) * 100 << "%)" << endl;
+	*file << "√Å√´√æ√§√Æ " << it1->first << " √Ø√Æ√§√Æ√∞√Æ√¶√†√´√Æ √≠√† " << it2->second.price - it1->second.price << " √∞√≥√°√´√•√©(" << ((it2->second.price - it1->second.price) / it2->second.price) * 100 << "%)" << endl;
 }
 
 void Menu::printSamePrice(ofstream *file, string dishName)
 {
-	*file << "Õ‡ ·Î˛‰Ó " << dishName << " ˆÂÌ‡ ÓÒÚ‡Î‡Ò¸ Ú‡ ÊÂ." << endl;
+	*file << "√ç√† √°√´√æ√§√Æ " << dishName << " √∂√•√≠√† √Æ√±√≤√†√´√†√±√º √≤√† √¶√•." << endl;
 }
 
 void Menu::printDishChanges(ofstream* file, vector<string> dishNotFound, vector<string> newDish)
 {
 	for (auto it = dishNotFound.begin(); it != dishNotFound.end(); ++it)
 	{
-		*file << "¡Î˛‰Ó " << *it << " ËÁ˙ˇÚÓ ËÁ ÏÂÌ˛." << endl;
+		*file << "√Å√´√æ√§√Æ " << *it << " √®√ß√∫√ø√≤√Æ √®√ß √¨√•√≠√æ." << endl;
 	}
 	for (auto it = newDish.begin(); it != newDish.end(); ++it)
 	{
-		*file << "¡Î˛‰Ó " << *it << " ÔÓˇ‚ËÎÓÒ¸ ‚ ÏÂÌ˛." << endl;
+		*file << "√Å√´√æ√§√Æ " << *it << " √Ø√Æ√ø√¢√®√´√Æ√±√º √¢ √¨√•√≠√æ." << endl;
 	}
 }
 
@@ -126,8 +126,8 @@ void Menu::printDishChanges(ofstream* file, vector<string> dishNotFound, vector<
 
 void Cafe::printTotalStats()
 {
-	ofstream file(dd->report.reportPath, ofstream::app);  // »—œ–¿¬»“‹
-	file << " ÓÎË˜ÂÒÚ‚Ó ˜ÂÍÓ‚: " << dd->checks.getCountChecks() << endl << "—ÛÏÏ‡ Á‡Í‡ÁÓ‚: " << dd->checks.getSum() << endl << "—Â‰ÌËÈ ˜ÂÍ = " << dd->checks.getSum() / dd->checks.getCountChecks() << endl;
+	ofstream file(dd->report.reportPath, ofstream::app);  // √à√ë√è√ê√Ä√Ç√à√í√ú
+	file << "√ä√Æ√´√®√∑√•√±√≤√¢√Æ √∑√•√™√Æ√¢: " << dd->checks.getCountChecks() << endl << "√ë√≥√¨√¨√† √ß√†√™√†√ß√Æ√¢: " << dd->checks.getSum() << endl << "√ë√∞√•√§√≠√®√© √∑√•√™ = " << dd->checks.getSum() / dd->checks.getCountChecks() << endl;
 	file << "============================================" << endl << endl;
 	file.close();
 }
@@ -140,16 +140,16 @@ void NameWay_countSpaces::parcel(string line)
 	name_way = line.substr(line.find_first_not_of(" "));
 }
 
-bool Position_in_menu::parceling_line(string line)  //0ÛÒÔÂı 1ÌÂ ÛÒÔÂı
+bool Position_in_menu::parceling_line(string line)  //0√≥√±√Ø√•√µ 1√≠√• √≥√±√Ø√•√µ
 {
 	regex tmpRegex("\\s*(.+?)[\\s=]+(\\d+)[,\\.](\\d{2})[\\s*(\\d)%\\s*]*");
 	smatch match;
 	if (!regex_search(line, match, tmpRegex)) return 1;
-	// ‚ Ï‡Ú˜Â:
-	//Ï‡Ú˜(0) ‚Òˇ ÒÚÓÍ‡
-	//Ï‡Ú˜(1) Ì‡Á‚‡ÌËÂ
-	//Ï‡Ú˜(2) Û·ÎË 
-	//Ï‡Ú˜(3) ÍÓÔÂÈÍË
+	// √¢ √¨√†√≤√∑√•:
+	//√¨√†√≤√∑(0) √¢√±√ø √±√≤√∞√Æ√™√†
+	//√¨√†√≤√∑(1) √≠√†√ß√¢√†√≠√®√•
+	//√¨√†√≤√∑(2) √∞√≥√°√´√® 
+	//√¨√†√≤√∑(3) √™√Æ√Ø√•√©√™√®
 	name = match.str(1);
 	rubles = stoi(match.str(2));
 	kopecks = stoi(match.str(3));
@@ -174,10 +174,10 @@ bool Position_in_kc::parcelling_string(string line, Menu m)  //0 success 1 fail
 	regex tmpRegex("\\s*(.+?)[\\s=]+(\\d+)\\s*");
 	smatch match;
 	if (!regex_search(line, match, tmpRegex)) return 1;
-	// ‚ Ï‡Ú˜Â:
-	//Ï‡Ú˜(0) ‚Òˇ ÒÚÓÍ‡
-	//Ï‡Ú˜(1) Ì‡Á‚‡ÌËÂ
-	//Ï‡Ú˜(2) ÍÓÎË˜ÂÒÚ‚Ó 
+	// √¢ √¨√†√≤√∑√•:
+	//√¨√†√≤√∑(0) √¢√±√ø √±√≤√∞√Æ√™√†
+	//√¨√†√≤√∑(1) √≠√†√ß√¢√†√≠√®√•
+	//√¨√†√≤√∑(2) √™√Æ√´√®√∑√•√±√≤√¢√Æ 
 	posInMen = m.map_menu[match.str(1)];
 	count = stoi(match.str(2));
 
@@ -222,13 +222,13 @@ int Menu::inputMenu(string date)
 	name_dish = "menu" + date + ".txt";
 	ifstream fin(name_dish);
 	Position_in_menu positionTmp;
-	if (!fin.is_open())//ÂÒÎË Ù‡ÈÎ ÌÓÚ ÓÔÂÌ 
+	if (!fin.is_open())//√•√±√´√® √¥√†√©√´ √≠√Æ√≤ √Æ√Ø√•√≠ 
 	{
 		cout << "File " << name_dish << " is not found." << endl;
 		system("pause");
 		exit(-1);
 	}
-	while (!fin.eof())//˜ÚÂÌËÂ ÏÂÌ˛¯ÍË
+	while (!fin.eof())//√∑√≤√•√≠√®√• √¨√•√≠√æ√∏√™√®
 	{
 		getline(fin, name_dish);
 		positionTmp.clear();
@@ -243,11 +243,11 @@ int Menu::inputMenu(string date)
 			map_menu[positionTmp.name] = positionTmp;
 			continue;
 		}
-		//ÂÒÎË ÒÚÓ˜Í‡ ÌÂ ‚Ë‰‡ Ì‡Á‚‡ÌËÂ ˆÂÌ‡...
+		//√•√±√´√® √±√≤√∞√Æ√∑√™√† √≠√• √¢√®√§√† √≠√†√ß√¢√†√≠√®√• √∂√•√≠√†...
 		regex tmpRegex("\\s*.+\\s*");
 		smatch match;
-		if (!regex_search(name_dish, match, tmpRegex)) return 10;  //Œÿ»¡ ¿ π10:—“–Œ ¿ ¬ Ã≈Õﬁ Õ≈ œŒƒ’Œƒ»“ œŒƒ Œœ»—¿Õ»≈ Õ»  ¿“≈√Œ–»» Õ» ¡ÀﬁƒŒ ÷≈Õ¿
-		// ÂÒÎË ÒÚÓÍ‡ Ôo‰ıÓ‰ËÚ ÔÓ‰ ÓÔËÒ‡ÌËÂ Í‡ÚÂ„ÓËË
+		if (!regex_search(name_dish, match, tmpRegex)) return 10;  //√é√ò√à√Å√ä√Ä ¬π10:√ë√í√ê√é√ä√Ä √Ç √å√Ö√ç√û √ç√Ö √è√é√Ñ√ï√é√Ñ√à√í √è√é√Ñ √é√è√à√ë√Ä√ç√à√Ö √ç√à √ä√Ä√í√Ö√É√é√ê√à√à √ç√à √Å√ã√û√Ñ√é √ñ√Ö√ç√Ä
+		// √•√±√´√® √±√≤√∞√Æ√™√† √Øo√§√µ√Æ√§√®√≤ √Ø√Æ√§ √Æ√Ø√®√±√†√≠√®√• √™√†√≤√•√£√Æ√∞√®√®
 		tmpNameCategoryCountSpaces.parcel(name_dish);
 		tmpNode.countSpaces = tmpNameCategoryCountSpaces.count_spaces;
 		tmpNode.name = tmpNameCategoryCountSpaces.name_way;
@@ -320,7 +320,7 @@ void Checks::inputCheck(string data, Menu menu)
 	while (!fin.eof())
 	{
 		getline(fin, line);
-		regex tmpRegex(".+π\\s*([0-9]+)\\s+([0-9]+):([0-9]+)");
+		regex tmpRegex(".+¬π\\s*([0-9]+)\\s+([0-9]+):([0-9]+)");
 		smatch match;
 		if (regex_search(line, match, tmpRegex))
 		{
@@ -329,7 +329,7 @@ void Checks::inputCheck(string data, Menu menu)
 			tmpCheck.minutes = stoi(match.str(3));
 			continue;
 		}
-		tmpRegex = "ËÚÓ„Ó:\\s*([0-9]+)[.,]([0-9]+)";
+		tmpRegex = "√®√≤√Æ√£√Æ:\\s*([0-9]+)[.,]([0-9]+)";
 		if (regex_search(line, match, tmpRegex))
 		{
 			tmpCheck.sum_rubles = stoi(match.str(1));
@@ -389,7 +389,7 @@ void Checks::printInFile(string line, std::ofstream* file)
 
 void EveningDiscount::setTime()
 {
-	cout << "¬‚Â‰ËÚÂ ‚ÂÏˇ, ÔÓÒÎÂ ÍÓÚÓÓÈ Ì‡˜ËÌ‡ÂÚÒˇ ‚ÂÏˇ ‰ÂÈÒÚ‚Ëˇ ‚Â˜ÂÌÂÈ ÒÍË‰ÍË." << endl;
+	cout << "√Ç√¢√•√§√®√≤√• √¢√∞√•√¨√ø, √Ø√Æ√±√´√• √™√Æ√≤√Æ√∞√Æ√© √≠√†√∑√®√≠√†√•√≤√±√ø √¢√∞√•√¨√ø √§√•√©√±√≤√¢√®√ø √¢√•√∑√•√∞√≠√•√© √±√™√®√§√™√®." << endl;
 	string Tmp;
 	cin >> Tmp;
 	regex tmpRegex("(\\d+)[:](\\d+)");
@@ -421,12 +421,12 @@ void LuxuryOrderDiscount::addCondition(double price, int discSize)
 	condition[price] = discSize;
 }
 
-void LuxuryOrderDiscount::removeCondition(double price) // ÔÓ ˆÂÌÂ
+void LuxuryOrderDiscount::removeCondition(double price) // √Ø√Æ √∂√•√≠√•
 {
 	condition.erase(price);
 }
 
-void LuxuryOrderDiscount::removeCondition(int discSize) // ÔÓ ‡ÁÏÂÛ ÒÍË‰ÍË
+void LuxuryOrderDiscount::removeCondition(int discSize) // √Ø√Æ √∞√†√ß√¨√•√∞√≥ √±√™√®√§√™√®
 {
 	auto it = condition.begin();
 	while (it->second != discSize)
