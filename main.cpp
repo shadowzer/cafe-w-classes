@@ -8,7 +8,9 @@ int main()
 {
 	setlocale(LC_ALL, "RUS");
 
-	Console a;
-	a.printStartInfo();
+	Cafe cafe;
+	cafe.start();
+
+	system("pause");
 	return 0;
 }
